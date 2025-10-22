@@ -7,18 +7,17 @@ The tasks were completed as part of a data analytics SQL challenge, focusing on 
 
 #### Project Structure
 launchmart-sql-analysis
-│
-├── 01_schema.sql          # Table scripts (DDL)
-├── 02_seed_data.sql       # Data scripts
-├── 03_queries.sql         # Analytical solutions
-├── 03_launchMart_erd.png  # ER diagram of database schema
-└── README.md              # Project documentation
+01_schema.sql          # Table scripts (DDL)
+02_seed_data.sql       # Data scripts
+04_queries.sql         # Analytical solutions
+03_launchMart_erd.png  # ER diagram of database schema
+README.md              # Project documentation
 
 #### Setup Instructions
 
 Follow these steps to set up and run the SQL queries locally using PostgreSQL, pgAdmin.
 
-1. Create the Database: Open PostgreSQL environment (pgAdmin0) and Create Database launchmart_db;
+1. Create the Database: Open PostgreSQL environment (pgAdmin4) and Create Database launchmart_db;
 
 2. Create Tables
 Execute the DDL statements in 01_schema.sql to create all required tables: customers, products, orders, order_items and loyalty_points
